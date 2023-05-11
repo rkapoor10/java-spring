@@ -1,3 +1,5 @@
+import pckgs.temp.Test;
+
 class Calculator{
     int a; //this is instance variable
     public int add(int no1, int no2) // variables no1 and no2 are local vars
@@ -17,5 +19,8 @@ public class Hello{
         Calculator calc = new Calculator();
         double result = calc.add(4);
         System.out.println(result);
+
+        Test obj = new Test();
+        obj.call();
     }
 }
