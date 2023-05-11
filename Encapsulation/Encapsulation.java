@@ -4,6 +4,14 @@ class Human{
    
     private String name;
 
+    
+
+    public Human() { // default constructor
+    }
+    public Human(int age, String name) { // parametrized constructor
+        this.age = age;
+        this.name = name;
+    }
     public int getAge() {
         return age;
     }
