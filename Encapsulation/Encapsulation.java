@@ -8,7 +8,7 @@ class Human{
         return age;
     }
     public void setAge(int age) {
-        this.age = age;
+        this.age = age; // this refers to the current obj which is calling the object
     }
     public String getName() {
         return name;
