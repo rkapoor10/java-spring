@@ -23,6 +23,25 @@ public class Demo {
         for(Status status : arr){
             System.out.println(status + " " + status.ordinal());
         } 
+
+
+        Status current = Status.Running;
+
+        switch(current){
+            case Running:
+                System.out.println("Running...");
+                break;
+            case Halted:
+                System.out.println("Paused for now");
+                break;
+            case Terminated:
+                System.out.println("It has terminated");
+                break;
+            default:
+                System.out.println("Done");
+
+        }
     }
+
 }
 
