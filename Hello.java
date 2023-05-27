@@ -1,4 +1,4 @@
-import pckgs.temp.Test;
+// import pckgs.temp.Test;
 
 class Calculator{
     int a; //this is instance variable
@@ -18,9 +18,9 @@ public class Hello{
         
         Calculator calc = new Calculator();
         double result = calc.add(4);
-        System.out.println(result);
+        System.out.println("Hello");
 
-        Test obj = new Test();
-        obj.call();
+        // Test obj = new Test();
+        // obj.call();
     }
 }
