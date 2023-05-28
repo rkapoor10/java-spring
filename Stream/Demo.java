@@ -16,6 +16,10 @@ public class Demo {
         // Stream<Integer> s2 = s1.filter(n -> n%2 == 0);
         // Stream<Integer> s3 = s2.map(n -> n*2);
         // int s = s3.reduce(0, (c,p) -> c+p);
+
+        /*
+         * you can use nums.parallelStream in filter for a faster result
+         */
         
 
         int s = nums.stream()
